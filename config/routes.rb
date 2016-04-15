@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'page/home'
+
+  get 'page/about'
+
+  get 'page/faqs'
+
+  get 'page/contact'
+
   devise_for :users
    
   root 'page#home'
