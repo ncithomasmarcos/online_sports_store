@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  
+  resources :line_items
+  resources :carts
+  resources :carts
+  root 'store#index'
+
   get 'page/home'
 
   get 'page/about'
@@ -9,7 +15,7 @@ Rails.application.routes.draw do
 
   devise_for :users
    
-  root 'page#home'
+
    
   get 'cart/index'
 

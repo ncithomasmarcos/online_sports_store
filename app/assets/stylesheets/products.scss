@@ -12,10 +12,11 @@ padding: 5px;
 vertical-align: top;
 }
 .list_image {
-width: 60px;
-height: 70px;
+width: 80px;
+height: 100px;
 }
 .list_description {
+align:right;
 width: 60%;
 dl {
 margin: 0;
@@ -24,7 +25,7 @@ dt {
 
 color: #244;
 font-weight: bold;
-font-size: larger;
+font-size: 22px;
 
 }
 
@@ -34,15 +35,15 @@ margin: 0;
 }
 }
 .list_actions {
-font-size: x-small;
+font-size: 12px;
 text-align: right;
 padding-left: 1em;
 }
 .list_line_even {
-background: #e0f8f8;
+background: #C1E1A6;
 
 }
 .list_line_odd {
-background: #f8b0f8;
+background: #CBE32D;
 }
 }
